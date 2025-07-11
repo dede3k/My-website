@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html, body{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    background: linear-gradient(#00051A, #000000);
+
+
+}
+
+.container{
+    max-width: clamp(33.331rem, 3.027rem + 96.97vw, 100rem);
+    margin: 0 auto;
+    border: 1px dashed #750000;
+    z-index: 0;
+}
+
+
+p{
+    margin: 0 auto;
+    font-size: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-flex;
+}
+li{
+    display: inline-flex;
+
+}
+
+.bg{
+    display: flex;
+    z-index: -1;
+    gap: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+    justify-items: center;
+    position: fixed;
+}
+.bg .stripe{
+    background: linear-gradient(#00051F, #000105);
+    width: clamp(4.331rem, 0.391rem + 12.61vw, 13rem);
+    height: 1000px;
+
+}
+h2{
+    font-size: clamp(2.667rem, 0.242rem + 7.76vw, 8rem);
+    font-weight: 700;
+    color: #000;
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: clamp(3.125rem, 0.284rem + 9.09vw, 9.375rem);
+    margin-top: clamp(0.625rem, 0.057rem + 1.82vw, 1.875rem);
+}
+h4{
+    font-size: clamp(1rem, 0.091rem + 2.91vw, 3rem);
+    font-weight: 700;
+    margin-bottom: clamp(0.125rem, 0.011rem + 0.36vw, 0.375rem);
+    padding-top: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+}
+/*----OTHER----*/
+
+
+
+
+
+/*----NAV----*/
+nav{
+    justify-content: space-between;
+}
+
+nav .left{
+    gap: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+    display: inline-flex;
+}
+
+nav .left p{
+
+}
+
+nav img{
+
+}
+
+nav .right{
+    gap: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+    display: inline-flex;
+}
+
+nav .right a{
+
+
+}
+
+nav .right ul li ul{
+
+}
+
+nav .right .lng{
+    margin-top: clamp(0.144rem, 0.01rem + 0.43vw, 0.438rem);
+}
+
+nav .right a img{
+
+}
+
+nav .right .btn{
+    background: #002BFF;
+    width: clamp(2.188rem, 0.199rem + 6.36vw, 6.563rem);
+    height: clamp(0.706rem, 0.061rem + 2.06vw, 2.125rem);
+    border-radius: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    justify-content: center;
+    align-items: center;
+}
+/*----NAV----*/
+
+
+
+
+
+/*----TITLE----*/
+.title{
+    justify-content: center;
+}
+
+.title .min-title{
+    display: flex;
+    gap: clamp(0.625rem, 0.057rem + 1.82vw, 1.875rem);
+    justify-content: center;
+    margin-bottom: clamp(0.625rem, 0.057rem + 1.82vw, 1.875rem);
+}
+
+.title .min-title .min-ttl-st{
+    background: #002BFF;
+    width: clamp(3.5rem, -2.239rem + 18.36vw, 16.125rem);
+    height: clamp(1.104rem, 0.1rem + 3.21vw, 3.313rem);
+    justify-content: center;
+    align-items: center;
+    border-radius: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+}
+
+.title .min-title .min-ttl-st a, .title .min-title .min-ttl-nd a{
+    font-size: clamp(0.5rem, 0.045rem + 1.45vw, 1.5rem);
+    font-weight: 600;
+}
+
+.title .min-title .min-ttl-nd a{
+    margin-top: clamp(0.25rem, 0.023rem + 0.73vw, 0.75rem);
+}
+
+.title .h1-title .h1-st, .title .h1-title .h1-nd{
+    color: white;
+    font-size: clamp(2rem, 0.182rem + 5.82vw, 6rem);
+    margin: 0 auto;
+    font-weight: 900;
+}
+
+.title .h1-title .h1-st{
+    margin-left: clamp(4.604rem, 0.419rem + 13.39vw, 13.813rem);
+}
+
+.title .h1-title .h1-nd{
+    margin-left: clamp(11.769rem, 1.067rem + 34.25vw, 35.313rem);
+}
+
+.title .h1-title .h1-th{
+    display: flex;
+
+}
+.title .h1-title .h1-th h1{
+    color: #8196FF;
+    font-size: clamp(2rem, 0.182rem + 5.82vw, 6rem);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: clamp(18.542rem, 1.686rem + 53.94vw, 55.625rem);
+    font-weight: 900;
+}
+
+.title .h1-title .h1-th h2{
+    margin-left: clamp(1.563rem, 0.142rem + 4.55vw, 4.688rem);
+    margin-bottom: clamp(3.125rem, 0.284rem + 9.09vw, 9.375rem);
+}
+/*----TITLE----*/
+
+
+
+
+
+/*----PORTFOLIO----*/
+.portfolio .block-portfolio{
+    border-radius: clamp(1.042rem, 0.095rem + 3.03vw, 3.125rem);
+    backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    -webkit-backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0 0 clamp(1.417rem, 0.129rem + 4.12vw, 4.25rem) rgba(255, 255, 255, 0.05);
+    z-index: 1;
+    text-align: center;
+}
+
+.portfolio .block-portfolio .title-portfolio p{
+    font-size: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    color: #BEBEBE;
+}
+
+.portfolio .block-portfolio .works-portfolio{
+    margin-top: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st{
+    display: flex;
+    gap: clamp(0.417rem, 0.038rem + 1.21vw, 1.25rem);
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st .preview{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: clamp(0.206rem, 0.016rem + 0.61vw, 0.625rem);
+    border-width: clamp(0.019rem, -0.001rem + 0.06vw, 0.063rem);
+    margin-right: clamp(0.833rem, 0.076rem + 2.42vw, 2.5rem);
+    width: clamp(10.417rem, 0.947rem + 30.3vw, 31.25rem);
+    height: clamp(5.833rem, 0.53rem + 16.97vw, 17.5rem);
+
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st h5{
+    font-size: clamp(0.667rem, 0.061rem + 1.94vw, 2rem);
+    font-weight: 500;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st hr{
+    width: clamp(8.813rem, 0.801rem + 25.64vw, 26.438rem);
+    height: clamp(0.019rem, -0.001rem + 0.06vw, 0.063rem);
+    margin-top: clamp(0.394rem, 0.033rem + 1.15vw, 1.188rem);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st .more .bg-more{
+    width: clamp(1.042rem, 0.095rem + 3.03vw, 3.125rem);
+    height: auto;
+    z-index: 0;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-1st .more .arrow-more{
+    width: clamp(0.479rem, 0.044rem + 1.39vw, 1.438rem);
+    height: auto;
+    fill: black;
+    z-index: 5;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-2nd{
+    display: flex;
+    gap: clamp(0.417rem, 0.038rem + 1.21vw, 1.25rem);
+    margin-top: 0;
+    padding-top: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+    padding-bottom: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+}
+
+.portfolio .block-portfolio .works-portfolio .work-2nd .preview{
+    width: clamp(10.417rem, 0.947rem + 30.3vw, 31.25rem);
+    height: clamp(5.831rem, 0.527rem + 16.97vw, 17.5rem);
+    border-radius: clamp(0.206rem, 0.016rem + 0.61vw, 0.625rem);
+    margin-right: clamp(0.833rem, 0.076rem + 2.42vw, 2.5rem);
+    background: #002BFF;
+    justify-content: center;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-2nd .preview h3{
+    font-size: clamp(1rem, 0.091rem + 2.91vw, 3rem);
+    font-weight: 700;
+    display: inline-flex;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-2nd h5{
+    font-size: clamp(0.667rem, 0.061rem + 1.94vw, 2rem);
+    font-weight: 500;
+}
+
+
+.portfolio .block-portfolio .works-portfolio .work-2nd hr{
+    width: clamp(13.979rem, 1.271rem + 40.67vw, 41.938rem);
+    height: clamp(0.019rem, -0.001rem + 0.06vw, 0.063rem);
+    margin-top: clamp(0.394rem, 0.033rem + 1.15vw, 1.188rem);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.portfolio .block-portfolio .works-portfolio .work-2nd .more .bg-more{
+    width: clamp(1.042rem, 0.095rem + 3.03vw, 3.125rem);
+    height: auto;
+}
+
+.portfolio h2{
+
+}
+/*----PORTFOLIO----*/
+
+
+
+
+
+/*----SKILLS----*/
+.skills .block-skills{
+    border-radius: clamp(1.042rem, 0.095rem + 3.03vw, 3.125rem);
+    backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    -webkit-backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0 0 clamp(1.417rem, 0.129rem + 4.12vw, 4.25rem) rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.skills .block-skills .list-skills{
+    width: clamp(12.5rem, 1.136rem + 36.36vw, 37.5rem);
+    gap: clamp(0.519rem, 0.044rem + 1.52vw, 1.563rem);
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-bottom: clamp(1.25rem, 0.114rem + 3.64vw, 3.75rem);
+}
+
+.skills .block-skills .title-skills p{
+    font-size: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    color: #BEBEBE;
+    padding-bottom: clamp(0.938rem, 0.085rem + 2.73vw, 2.813rem);
+}
+
+.skills .block-skills .list-skills h6{
+    font-size: clamp(0.5rem, 0.045rem + 1.45vw, 1.5rem);
+    font-weight: 600;
+    padding: clamp(0.375rem, 0.205rem + 0.55vw, 0.75rem) clamp(0.688rem, 0.375rem + 1vw, 1.375rem);
+    background: #002BFF;
+    border-radius: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    outline: #002BFF solid clamp(0.042rem, 0.004rem + 0.12vw, 0.125rem);
+    display: inline-flex;
+    transition: 350ms;
+
+}
+
+.skills .block-skills .list-skills h6:hover{
+    background: none;
+}
+/*----SKILLS----*/
+
+
+
+
+
+/*----ABOUT ME----*/
+.aboutme .block-aboutme{
+    border-radius: clamp(1.042rem, 0.095rem + 3.03vw, 3.125rem);
+    backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    -webkit-backdrop-filter: blur(clamp(1rem, 0.091rem + 2.91vw, 3rem));
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0 0 clamp(1.417rem, 0.129rem + 4.12vw, 4.25rem) rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.aboutme .block-aboutme .title-aboutme{
+    position: relative;
+    left: clamp(1.875rem, 0.17rem + 5.45vw, 5.625rem);
+}
+
+.aboutme .block-aboutme .title-aboutme p{
+    font-size: clamp(0.331rem, 0.027rem + 0.97vw, 1rem);
+    color: #BEBEBE;
+    padding-bottom: clamp(0.938rem, 0.085rem + 2.73vw, 2.813rem);
+}
+
+.aboutme .block-aboutme .main-aboutme{
+    display: flex;
+}
+
+.aboutme .block-aboutme .main-aboutme .text-aboutme p{
+    width: clamp(18.417rem, 1.674rem + 53.58vw, 55.25rem);
+    font-size: clamp(0.5rem, 0.045rem + 1.45vw, 1.5rem);
+    text-align: left;
+}
+
+
+.aboutme .block-aboutme .main-aboutme .other-aboutme img{
+    width: auto;
+    height: clamp(1.563rem, 0.142rem + 4.55vw, 4.688rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
